@@ -1,0 +1,12 @@
+#Faça um Programa que leia três números e mostre o maior deles.
+
+numero1 = float(input("Numero1"))
+numero2 = float(input("Numero2"))
+numero3 = float(input("Numero3"))
+
+if numero1 > numero2 and numero1 > numero3:
+    print(numero1)
+elif numero2 > numero1 and numero2 > numero3:
+    print(numero2)
+elif numero3 > numero2 and numero3 > numero1:
+    print(numero3)

@@ -18,4 +18,4 @@ if salarioBruto > 1500 and salarioBruto <= 2500:
     IR = salarioBruto * 0.10
     print("Você paga R${} de IMPOSTO DE RENDA!".format(IR))
     SIND = salarioBruto * 00.4
-    print("Você paga R${} de IMPOSTO DE RENDA!".format(IR))
+    print("Ao SINDICATO você paga R${}".format(IR))

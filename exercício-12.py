@@ -9,12 +9,16 @@ if salarioBruto <= 900:
     print("Logo, você está isento das taxas do INSS, FGTS e Imposto de Renda!")
 
 if salarioBruto > 900 and salarioBruto <= 1500:
+    INSS = salarioBruto * 0.1
+    print("Ao INSS você paga R${}".format(INSS)
     IR = salarioBruto * 0.05
     print("Você paga R${} de IMPOSTO DE RENDA!" .format(IR))
     SIND = salarioBruto * 0.03
     print("Ao SINDICATO você paga R${}." .format(SIND))
 
 if salarioBruto > 1500 and salarioBruto <= 2500:
+    INSS = salarioBruto * 0.1
+    print("Ao INSS você paga R${}".format(INSS)
     IR = salarioBruto * 0.10
     print("Você paga R${} de IMPOSTO DE RENDA!".format(IR))
     SIND = salarioBruto * 00.4
